@@ -13,7 +13,7 @@ function App() {
    return (
       <div className="p-4">
          <p className="text-3xl font-bold">{message}</p>
-         <Button className="m-4">Click Me</Button>
+         <Button className="m-4">Click Me!</Button>
       </div>
    );
 }
