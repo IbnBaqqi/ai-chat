@@ -10,12 +10,7 @@ function App() {
 			.then(data => setMessage(data.message));
 	}, []);
 
-	return (
-		<div>
-			<h1>Message from server:</h1>
-			<p>{message}</p>
-		</div>
-	);
+	return <p className="text-3xl font-bold p-4">{message}</p>
 }
 
-export default App;
+export default App
